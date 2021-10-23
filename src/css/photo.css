@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+  color: yellow;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: auto;
+}
+
+.photo-gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-item {
+  width: calc((100%-30px) / 2);
+}
+
+.main-item {
+  width: 500px;
+  padding: 30px;
+}
+.gallery-img {
+  width: 450px;
+}
